@@ -1,0 +1,14 @@
+{
+  "name": "nutrition-agent",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": ["apps/web","packages/mcp-server"],
+  "scripts": {
+    "dev": "npm run dev --workspace=apps/web",
+    "build": "npm run build --workspace=packages/mcp-server && npm run build --workspace=apps/web",
+    "mcp:build": "npm run build --workspace=packages/mcp-server"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

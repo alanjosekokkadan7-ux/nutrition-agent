@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "nutrition-agent": {
+      "command": "node",
+      "args": ["packages/mcp-server/build/index.js"],
+      "env": { "NODE_ENV": "production" }
+    }
+  }
+}

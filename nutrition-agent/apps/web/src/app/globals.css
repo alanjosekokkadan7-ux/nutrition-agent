@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.bubble-user { @apply bg-green-600 text-white rounded-2xl rounded-br-sm px-4 py-2 max-w-[80%] self-end text-sm; }
+.bubble-ai   { @apply bg-white border border-gray-200 rounded-2xl rounded-bl-sm px-4 py-2 max-w-[85%] self-start text-sm shadow-sm; }
+.card        { @apply bg-white rounded-2xl shadow-sm border border-gray-100 p-5; }
+.macro-bar   { @apply h-2 rounded-full bg-gray-200 overflow-hidden; }
+.macro-bar-fill { @apply h-full rounded-full transition-all duration-500; }
